@@ -1,6 +1,6 @@
-# Nome do Projeto
+# API na mão
 
-Uma breve descrição do que o projeto faz e seu propósito.
+Minimal API com o mínimo de arquivos.
 
 ## Tecnologias Utilizadas
 
@@ -15,11 +15,20 @@ Antes de rodar o projeto, tenha certeza de que você tem as seguintes ferramenta
 ## Como Rodar o Projeto
 
 1. **Clone o repositório**
-
    ```bash
    git clone https://github.com/nivaldoo/apinamao
 
+2. **Abra um prompt e execute (pode ser cmd ou powershell)**
+   ```bash
+   cd apinamao
+   ```
+   ```bash
    dotnet run
-
+   ```
+3. **Abra outro prompt**
+   ```bash
    curl http://localhost:5000 -v
+   ```
+   ```bash
    curl http://localhost:5000 -H "Content-Type: application/json" -d "\"Teste"\" -v
+   ```
